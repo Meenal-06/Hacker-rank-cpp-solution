@@ -1,0 +1,16 @@
+#include <iostream>
+#include <cstdio>
+using namespace std;
+
+int main() {
+    int a;
+    double b;
+    char c;
+    float f;
+    long l;
+    cin >>a>>l>>c>>f>>b;
+    cout <<a<<endl<<l<<endl<<c<<endl;
+    cout << std::fixed << std::setprecision(3) << d << '\n';
+    cout << std::fixed << std::setprecision(9) << e << '\n';
+    return 0;
+}
